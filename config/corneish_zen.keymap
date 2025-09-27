@@ -35,7 +35,8 @@
 
         raise_layer {
             label = "SYMBOL";
-            // Accenti italiani in seconda riga sinistra (richiedono layout di input "Italiano" su Windows)
+            /* Accenti italiani sulla seconda riga sinistra.
+               Richiedono layout di input “Italiano” in Windows. */
             bindings = <
                 &kp TAB   &kp EXCL &kp AT  &kp HASH &kp DLLR &kp PRCNT    &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
                 &kp LCTRL &kp IT_AGRAVE &kp IT_EGRAVE &kp IT_IGRAVE &kp IT_OGRAVE &kp IT_UGRAVE   &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH &kp GRAVE
